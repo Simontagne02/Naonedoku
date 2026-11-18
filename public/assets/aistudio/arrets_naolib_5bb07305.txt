@@ -1,0 +1,477 @@
+chronobus:
+  C1:
+    itineraire: Gare de Chantenay → Haluchère – Batignolles
+    arrets:
+    - Gare de Chantenay
+    - Bas-Chantenay
+    - Jean Macé
+    - Hérelle
+    - Lusançay
+    - Lechat
+    - Bourdonnais
+    - St-Aignan
+    - Mellinet
+    - Canclaux
+    - Lamoricière
+    - Édit de Nantes
+    - Copernic – Musées
+    - St-Nicolas
+    - Place du Cirque
+    - Hôtel de Ville
+    - St-Pierre
+    - Foch – Cathédrale
+    - Sophie Trébuchet
+    - St-Clément
+    - Chanzy
+    - Desaix
+    - St-Donatien
+    - Chalâtres
+    - Rond-Point de Paris
+    - Plessis Tison
+    - Croissant
+    - Chocolaterie
+    - Platanes
+    - Haluchère – Batignolles
+  C2:
+    itineraire: Gare Sud → Le Cardo
+    arrets:
+    - Gare Sud
+    - Lieu Unique
+    - Monteil
+    - Hôtel Dieu
+    - Commerce
+    - Place du Cirque
+    - Cirque – Marais
+    - 50 Otages
+    - Talensac
+    - St-Stanislas
+    - Bel Air
+    - Bruneau
+    - Le Goffic
+    - Rond-Point de Rennes
+    - Américains
+    - Rennes – Longchamp
+    - Berlioz
+    - La Close
+    - Forêt
+    - Pont du Cens
+    - Vallée
+    - Bout des Pavés
+    - Route de la Chapelle
+    - Bertrand
+    - La Coulée
+    - Chêne des Anglais
+    - René Cassin
+    - Les Roches
+    - Le Cardo
+  C3:
+    itineraire: Bd de Doulon → Bio Ouest Laënnec
+    arrets:
+    - Bd de Doulon
+    - Prairie de Mauves
+    - San Francisco
+    - La Roche
+    - Malakoff
+    - Hongrie
+    - Écosse
+    - Haubans
+    - Berlin
+    - Gare Sud
+    - Lieu Unique
+    - Monteil
+    - Hôtel Dieu
+    - Commerce
+    - St-Nicolas
+    - Copernic – Musées
+    - Édit de Nantes
+    - Lamoricière
+    - Canclaux
+    - Lamartine
+    - Littré
+    - Grillaud
+    - Procé
+    - Poincaré
+    - Delacroix
+    - Vincent Auriol
+    - Jean Ingres
+    - Raoul Dufy
+    - Châtaigniers
+    - Bd Charles Gautier
+    - Claude Bernard
+    - Duguay Trouin
+    - Franklin
+    - Edith Piaf
+    - Zénith
+    - Armor
+    - Cochardières
+    - Bio Ouest Laënnec
+  C4:
+    itineraire: Greneraie → Les Sorinières
+    arrets:
+    - Greneraie
+    - Châtelets
+    - Pirmil
+    - Pont Rousseau – Martyrs
+    - Félix Tableau
+    - St-Paul – Salengro
+    - Pinier (Rezé)
+    - Trois Moulins
+    - Flora Tristan
+    - Blanchet
+    - La Carrée
+    - Ragon
+    - Corbinerie
+    - Porte de Rezé
+    - Retas
+    - Rue de Nantes
+    - Mairie des Sorinières
+    - Écoles (Les Sorinières)
+    - Champ Fleuri
+    - Clos du Moulin
+    - Papillons
+    - Rouet
+    - Prières
+    - Corberie
+    - Haute Lande
+    - Les Faulx
+    - Les Sorinières
+    note: Châtelets est desservi dans ce sens, mais pas dans le sens retour.
+  C6:
+    itineraire: Hermeland → Chantrerie – Grandes Écoles
+    arrets:
+    - Hermeland
+    - Polyclinique
+    - Ambroise Paré
+    - Tillay
+    - Dervallières
+    - Le Nain
+    - Perron
+    - St-Laurent
+    - Vincent Auriol
+    - Poincaré
+    - Procé
+    - Doumer
+    - Camus
+    - Mondésir
+    - Harouys
+    - Delorme
+    - St-Nicolas
+    - Place du Cirque
+    - Hôtel de Ville
+    - St-Pierre
+    - Foch – Cathédrale
+    - Bonde
+    - Cochard
+    - Bretéché
+    - Lallié
+    - Châlet
+    - Coudray
+    - Belges – Montbazon
+    - Guindré
+    - Éraudière
+    - Keren
+    - Pontecorvo
+    - Koufra
+    - Ranzay
+    - Batignolles
+    - Beaujoire
+    - Roseraie
+    - Linot
+    - Portricq
+    - Embellie
+    - St-Joseph de Porterie
+    - Couchant (Nantes)
+    - Moulin de Porterie
+    - Chantrerie – Grandes Écoles
+  C7:
+    itineraire: Souillarderie → Clairais
+    arrets:
+    - Souillarderie
+    - Cousteau
+    - Basse Chênaie
+    - Portail Rougé
+    - Vesprées
+    - Bois des Anses
+    - Coty
+    - Ste-Luce
+    - La Grille
+    - Planchonnais
+    - Bougrière
+    - Moulin Cassé (Sainte-Luce-sur-Loire)
+    - Minais
+    - Gicquelière
+    - Parc des Sports
+    - Pont de la Métairie
+    - Point du Jour
+    - Centre de Thouaré
+    - Bussonnière
+    - Pré Poulain
+    - Maurienne
+    - Clairais
+    branche_trianon_apres: Centre de Thouaré
+    arrets_branche_trianon:
+    - Halbarderie
+    - Clémencière
+    - Rue de Mauves
+    - Trianon
+  C8:
+    itineraire: Saupin → Marcel Paul
+    arrets:
+    - Saupin (Nantes)
+    - Gare Sud
+    - Lieu Unique
+    - Monteil
+    - Hôtel Dieu
+    - Commerce
+    - St-Nicolas
+    - Delorme
+    - Harouys
+    - Mondésir
+    - Toutes Joies
+    - Anatole France
+    - Équipement
+    - Fallières
+    - Bd des Anglais
+    - Suzanne Lenglen
+    - Grand Carcouët
+    - Verlaine
+    - Sully Prudhomme
+    - Bouvardière
+    - Bergeronnettes
+    - Noëlles
+    - Nil
+    - Thébaudières (Saint-Herblain)
+    - Sillon de Bretagne
+    - Angevinière
+    - Marcel Paul
+  C9:
+    itineraire: Pirmil → Chalonges
+    arrets:
+    - Pirmil
+    - Châtelets
+    - Greneraie
+    - Portechaise
+    - Grand Portail
+    - Baugerie
+    - Gibraye
+    - Gare des Pas Enchantés
+    - Cambronne
+    - St-Sébastien
+    - Douettée
+    - Pyramide
+    - Savarières
+    - Fontaine
+    - Beaugency
+    - Lourneau
+    - Profondine
+    - Ouche des Landes
+    - Noé Cottée
+    - Portereau (Saint-Sébastien-sur-Loire)
+    - Chalonges (Basse-Goulaine)
+    branche_basse_goulaine_apres: Savarières
+    arrets_branche_basse_goulaine:
+    - Grezillières
+    - Canal
+    - Grignon
+    - Quintaine
+    - Corbon
+    - Basse-Goulaine
+  C20:
+    itineraire: Gare Maritime → École Centrale – Audencia
+    arrets:
+    - Gare Maritime
+    - Salorges
+    - Carrière Misery
+    - Bougainville
+    - Bas-Chantenay
+    - Gare de Chantenay
+    - Bois Hardy
+    - Fardière
+    - Janvraie
+    - Belloc
+    - Bernanos
+    - Mendès France – Bellevue
+    - Romanet
+    - Tertre (Saint-Herblain)
+    - Branchoire
+    - Abel Durand
+    - Châtaigniers
+    - Colonac
+    - Le Nain
+    - Dervallières
+    - Grand Carcouët
+    - Églantine
+    - Courteline
+    - Beauséjour
+    - Grootaers
+    - Cimetière Gaudinière
+    - Patouillerie
+    - Pont du Cens
+    - Vallée
+    - Bout des Pavés
+    - Chauvinière
+    - Tribunes
+    - Hippodrome
+    - Champ de Courses
+    - Petit Port
+    - Fac de Lettres
+    - École Centrale – Audencia
+tramway:
+  ligne_1:
+    itineraire: Beaujoire → François Mitterrand
+    arrets:
+    - Beaujoire
+    - Halvêque
+    - Haluchère – Batignolles
+    - Pin Sec
+    - Souillarderie
+    - Landreau
+    - Mairie de Doulon
+    - Bd de Doulon
+    - Hôpital Bellier
+    - Moutonnerie
+    - Manufacture
+    - Gare Nord – Jardin des Plantes
+    - Duchesse Anne – Château
+    - Bouffay
+    - Commerce
+    - Médiathèque
+    - Chantiers Navals
+    - Gare Maritime
+    - Du Chaffault
+    - Égalité
+    - Croix Bonneau
+    - Jean Moulin
+    - Lauriers
+    - Romain Rolland
+    - Mendès France – Bellevue
+    - Romanet
+    - Tertre
+    - Neruda
+    - Frachon
+    - Schoelcher
+    - Tourmaline
+    - François Mitterrand
+    note: Certaines courses ont des variantes vers Babinière, Ranzay, Jamet ou des
+      terminus intermédiaires.
+  ligne_2:
+    itineraire: Gare de Pont Rousseau → Orvault Grand Val
+    arrets:
+    - Gare de Pont Rousseau
+    - Pirmil
+    - Mangin
+    - Wattignies
+    - Vincent Gâche
+    - Aimé Delrue
+    - Hôtel Dieu
+    - Commerce
+    - Place du Cirque
+    - 50 Otages
+    - St-Mihiel
+    - Motte Rouge
+    - St-Félix
+    - Michelet – Sciences
+    - Morrhonnière – Petit Port
+    - Facultés
+    - École Centrale – Audencia
+    - Recteur Schmitt
+    - Bourgeonnière
+    - Boissière
+    - Santos Dumont
+    - Chêne des Anglais
+    - René Cassin
+    - Le Cardo
+    - Orvault Grand Val
+  ligne_3:
+    itineraire: Neustrie → Marcel Paul
+    arrets:
+    - Neustrie
+    - Les Couëts
+    - Grande Ouche
+    - Trocardière
+    - Espace Diderot
+    - Château de Rezé
+    - Balinière
+    - 8 Mai
+    - Pont Rousseau – Martyrs
+    - Pirmil
+    - Mangin
+    - Wattignies
+    - Vincent Gâche
+    - Aimé Delrue
+    - Hôtel Dieu
+    - Commerce
+    - Bretagne
+    - Jean Jaurès
+    - Viarme – Talensac
+    - Poitou
+    - Félix Faure
+    - Rond-Point de Vannes
+    - Alexandre Vincent – Ste-Thérèse
+    - Longchamp
+    - Beauséjour
+    - Plaisance
+    - Ferrière
+    - Jean Rostand
+    - Bignon
+    - Orvault Morlière
+    - Sillon de Bretagne
+    - Marcel Paul
+busway:
+  ligne_4:
+    itineraire: Porte de Vertou → Foch – Cathédrale
+    arrets:
+    - Porte de Vertou
+    - Maraîchers
+    - Chapeau Verni
+    - Joliverie
+    - Bourdonnières
+    - Mauvoisins
+    - Clos Toreau
+    - Bonne Garde
+    - Greneraie
+    - Beaulieu
+    - Île de Nantes
+    - Tripode
+    - Cité des Congrès
+    - Duchesse Anne – Château
+    - Foch – Cathédrale
+  ligne_5:
+    itineraire: Gare Sud → Hangar à Bananes
+    arrets:
+    - Gare Sud
+    - Berlin
+    - Haubans
+    - Pompidou
+    - Galarne
+    - Conservatoire
+    - Île de Nantes
+    - Fonderies
+    - Vincent Gâche
+    - Nizan
+    - République
+    - Gare de l’État
+    - Prairie au Duc
+    - Quai des Antilles
+    - Hangar à Bananes
+urls:
+  chronobus:
+    C1: https://nantes-mobilite.fr/ligne-c1
+    C2: https://nantes-mobilite.fr/ligne-c2
+    C3: https://nantes-mobilite.fr/ligne-c3
+    C4: https://nantes-mobilite.fr/ligne-c4
+    C6: https://nantes-mobilite.fr/ligne-c6
+    C7: https://nantes-mobilite.fr/ligne-c7
+    C8: https://nantes-mobilite.fr/ligne-c8
+    C9: https://nantes-mobilite.fr/ligne-c9
+    C20: https://nantes-mobilite.fr/ligne-c20
+  tramway:
+    ligne_1: https://nantes-mobilite.fr/ligne-1
+    ligne_2: https://nantes-mobilite.fr/ligne-2
+    ligne_3: https://nantes-mobilite.fr/ligne-3
+  busway:
+    ligne_4: https://nantes-mobilite.fr/ligne-4
+    ligne_5: https://nantes-mobilite.fr/ligne-5
+note_generale: Listes reprises de la réponse précédente; vérifier les itinéraires
+  et variantes sur les pages officielles Naolib, car les arrêts et parcours peuvent
+  évoluer.

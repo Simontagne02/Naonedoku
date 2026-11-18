@@ -1,0 +1,6 @@
+{
+  "name": "Nantodoku - Le Metrodoku Nantais",
+  "description": "Le jeu de grille et de réflexion des transports en commun de Nantes (Naolib / TAN). Trouvez les stations correspondant aux lignes et conditions générées aléatoirement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
