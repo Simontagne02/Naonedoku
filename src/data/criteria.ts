@@ -714,6 +714,40 @@ export const ALL_CRITERIA: Criterion[] = [
     matches: (s) => s.lines.length >= 4,
   },
 
+  // --- PARITÉ DES LIGNES ---
+  {
+    id: 'even-line',
+    title: 'Ligne paire (2, 4, C2, C4, C6, C8, C20)',
+    shortTitle: 'Ligne paire',
+    subtitle: 'Numéro de ligne pair',
+    category: 'feature',
+    badgeBg: '#0f766e',
+    badgeText: '#ffffff',
+    iconName: 'Hash',
+    difficulty: 'standard',
+    matches: (s) =>
+      s.lines.some((l) => {
+        const num = parseInt(l.replace(/\D/g, ''), 10);
+        return !Number.isNaN(num) && num % 2 === 0;
+      }),
+  },
+  {
+    id: 'odd-line',
+    title: 'Ligne impaire (1, 3, 5, C1, C3, C7, C9)',
+    shortTitle: 'Ligne impaire',
+    subtitle: 'Numéro de ligne impair',
+    category: 'feature',
+    badgeBg: '#4338ca',
+    badgeText: '#ffffff',
+    iconName: 'Hash',
+    difficulty: 'standard',
+    matches: (s) =>
+      s.lines.some((l) => {
+        const num = parseInt(l.replace(/\D/g, ''), 10);
+        return !Number.isNaN(num) && num % 2 === 1;
+      }),
+  },
+
   // --- LETTRES CONTENUES DANS LE NOM DE L'ARRÊT ---
   {
     id: 'contains-letter-b',
